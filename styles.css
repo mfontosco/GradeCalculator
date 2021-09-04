@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: darkcyan;
+    padding: 15px; background-image: url("mfon.jpg");
+
+}
+.container{
+    width: 80%;
+    height: 70%;
+    background-color: darkcyan;
+    background-image: url("mfon.jpg");
+    
+}
+.sideA{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(53, 0, 139);
+    float: left;
+    padding: 100px;
+}
+#percentagebox{
+    margin: 40px;
+}
+#gradebox{
+    margin: 40px;
+}
+.sideB{
+    width: 50%;
+    height: 100%;
+    background-color:#362222;
+    float: left;
+    padding-top: 100px;
+}
+#maths{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+#physics{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#chemistry{
+    height: 40px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+#biology{
+    height: 40px;
+    width: 80%;
+}
+#bottom{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+#Calculate{
+    width: 100px;
+    background-color:#362222;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
